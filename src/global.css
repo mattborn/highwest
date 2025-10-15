@@ -1,0 +1,75 @@
+:root {
+  --radius: 1rem;
+  --space: 1.5rem;
+  --space-clamp: clamp(1.5rem, 3vw, 2rem);
+}
+
+/* Typography */
+h2 {
+  font-size: 2rem;
+  margin: 0 0 1.5rem;
+}
+
+p {
+  color: var(--color-half);
+  line-height: 1.5;
+  margin: 0 0 1.5rem;
+}
+
+/* Layout */
+.layer-inset {
+  max-width: 80rem;
+}
+
+header .layer-inset {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+header nav {
+  display: flex;
+  gap: 1.5rem;
+}
+header nav a {
+  color: var(--color-half);
+}
+header nav a:hover {
+  color: var(--color-darkest);
+}
+
+section .layer-inset {
+  align-items: stretch;
+  gap: 0.5rem;
+}
+
+/* Filter nav */
+.filter-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+.filter-nav a {
+  color: var(--color-half);
+}
+.filter-nav a.active,
+.filter-nav a:hover {
+  color: var(--color-darkest);
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+/* Branding */
+
+.logo {
+  height: 9rem;
+  width: 15rem;
+}
+.logo img {
+  margin: -3rem 0 0 -2.5rem;
+  width: 20rem;
+}

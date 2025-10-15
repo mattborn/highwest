@@ -1,0 +1,200 @@
+[
+  {
+    "title": "Hibernation Station",
+    "description": "50 Cabin Resort. Sourced and underwrote and acquired asset. Negotiated key contracts and lead transition of operations to new ownership. Currently perform Asset Management services.",
+    "location": "West Yellowstone, MT",
+    "budget": 12,
+    "link": "https://hibernationstation.com/",
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760587064/Highwest/hibernation-station_bcxzpj.png",
+    "category": "Hospitality",
+    "status": "Asset Management",
+    "units": "50 cabins"
+  },
+  {
+    "title": "Glacier Grizzly RV Resort",
+    "description": "125 key RV and glamping Resort. Currently managing project through entitlements, development and operations onboarding.",
+    "location": "East Glacier, MT",
+    "budget": 10,
+    "link": "https://www.glaciergrizzlyrv.com",
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760587307/Highwest/glacier-grizzly_ad7x4k.png",
+    "category": "Hospitality",
+    "status": "Management",
+    "units": "125 keys"
+  },
+  {
+    "title": "Proposed Franchise Hotel",
+    "description": "98 key hotel in pre-development phase. Sourced deal currently moving forward as Developer of hotel.",
+    "location": "West Yellowstone, MT",
+    "budget": 28,
+    "link": null,
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760587063/Highwest/yellowstone-austin-farrington-gp2QLJKOvVc_yonwph.jpg",
+    "category": "Hospitality",
+    "status": "Pre-development",
+    "units": "98 keys"
+  },
+  {
+    "title": "Yotel Pad Park City",
+    "description": "For sale condos at Park City Mountain Resort. Managed all development activities during the construction phase of project.",
+    "location": "Park City, UT",
+    "budget": 45,
+    "link": "https://www.yotelpadparkcity.com/",
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760587306/Highwest/yotelpad-park-city_hfqzq1.jpg",
+    "category": "Hospitality",
+    "status": "Completed",
+    "units": "144 condos"
+  },
+  {
+    "title": "AC Hotel by Marriott",
+    "description": "Completed March 2018. Managed from site acquisition, design and project conception to completion.",
+    "location": "Salt Lake City, UT",
+    "budget": 35,
+    "link": "https://www.marriott.com/en-us/hotels/slcad-ac-hotel-salt-lake-city-downtown",
+    "image": "https://cache.marriott.com/content/dam/marriott-renditions/SLCAD/slcad-exterior-2173-hor-pano.jpg?downsize=1200px:*",
+    "category": "Hospitality",
+    "status": "Completed",
+    "units": "164 rooms"
+  },
+  {
+    "title": "Courtyard Hotel by Marriott",
+    "description": "Managed land acquisition through entitlements and design phase.",
+    "location": "Nanaimo, BC, Canada",
+    "budget": 41,
+    "link": "https://www.marriott.com/en-us/hotels/ycdcy-courtyard-nanaimo/overview/",
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760738895/Highwest/courtyard-nanaimo_yuxhn7.jpg",
+    "category": "Hospitality",
+    "status": "Development",
+    "units": "172 rooms"
+  },
+  {
+    "title": "Boutique Hotel",
+    "description": "184 room high rise hotel. Managed land acquisition through entitlements and design phase.",
+    "location": "Tempe, AZ",
+    "budget": 70,
+    "link": null,
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760738991/Highwest/tempe-elolson15-16922246_eik1ke.jpg",
+    "category": "Hospitality",
+    "status": "Development",
+    "units": "184 rooms"
+  },
+  {
+    "title": "Springhill Suites by Marriott",
+    "description": "117 room hotel. Managed land acquisition through entitlements and design phase.",
+    "location": "Scottsdale, AZ",
+    "budget": 23,
+    "link": null,
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760739068/Highwest/springhill-scottsdale_klghfm.jpg",
+    "category": "Hospitality",
+    "status": "Development",
+    "units": "117 rooms"
+  },
+  {
+    "title": "Milagro Apartments",
+    "description": "183 Units. Completed July 2018. Managed from acquisition, conception to completion. Recent disposition at $100m.",
+    "location": "Salt Lake City, UT",
+    "budget": 45,
+    "link": "https://www.milagroapartments.com",
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760739650/Highwest/milagro-slc_cbu6gm.jpg",
+    "category": "Multifamily",
+    "status": "Completed",
+    "units": "183 units"
+  },
+  {
+    "title": "Aero on 24th",
+    "description": "550 beds at University of Florida. Managed project through construction closeout and leasing phase.",
+    "location": "Gainesville, FL",
+    "budget": 44,
+    "link": "https://aeroon24th.com/",
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760739649/Highwest/aero-gainesville_admugp.webp",
+    "category": "Multifamily",
+    "status": "Completed",
+    "units": "550 beds"
+  },
+  {
+    "title": "Noble on Newberry",
+    "description": "300 luxury apartment units. Managed project through construction and closeout, leasing and disposition phase.",
+    "location": "Gainesville, FL",
+    "budget": 57,
+    "link": "https://nobleonnewberry.com/",
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760739648/Highwest/noble-gainesville_jpmm6g.jpg",
+    "category": "Multifamily",
+    "status": "Completed",
+    "units": "300 units"
+  },
+  {
+    "title": "UFORA",
+    "description": "667 beds at University of Florida. Managed project during construction. Expected completion, Summer 2023.",
+    "location": "Gainesville, FL",
+    "budget": 101,
+    "link": null,
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760739647/Highwest/ufora-gainesville_tauydj.jpg",
+    "category": "Multifamily",
+    "status": "Development",
+    "units": "667 beds"
+  },
+  {
+    "title": "Rogers BTR",
+    "description": "248 Build to Rent Single Family, Townhomes and Multifamily. Managed project through acquisition, due diligence, design and entitlements to construction start.",
+    "location": "Rogers, AR",
+    "budget": 82,
+    "link": null,
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760739647/Highwest/rogers-taylor-hall-CrLyby642wQ_tm0zkn.jpg",
+    "category": "Multifamily",
+    "status": "Development",
+    "units": "248 units"
+  },
+  {
+    "title": "Unite Student Living",
+    "description": "183 bed Co-Living Project. Conceptualized new product type for SLC and brought through acquisition, design, rezone and entitlement phase to construction.",
+    "location": "Salt Lake City, UT",
+    "budget": 30,
+    "link": "https://liveuniteslc.com/",
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760740056/Highwest/unite-slc_lsrfmf.jpg",
+    "category": "Multifamily",
+    "status": "Development",
+    "units": "183 beds"
+  },
+  {
+    "title": "Stenhouse BTR",
+    "description": "101 Build to Rent Townhomes. Managed project in design and entitlement phase. Groundbreaking Fall 2023.",
+    "location": "Simpsonville, SC",
+    "budget": 30,
+    "link": null,
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760740054/Highwest/simpsonville-sc_nfdndr.avif",
+    "category": "Multifamily",
+    "status": "Development",
+    "units": "101 townhomes"
+  },
+  {
+    "title": "Ocala BTR",
+    "description": "288 Build for Rent Single Family, Townhomes and Multifamily. Managed project through acquisition, due diligence, design and entitlements to construction start.",
+    "location": "Ocala, FL",
+    "budget": 80,
+    "link": null,
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760740053/Highwest/ocala-kenny-gaines-YScLVuOv7nU_vhjpg5.jpg",
+    "category": "Multifamily",
+    "status": "Development",
+    "units": "288 units"
+  },
+  {
+    "title": "RedSky Corporate Office Building",
+    "description": "Managed from conception to completion.",
+    "location": "Draper, UT",
+    "budget": 4.5,
+    "link": null,
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760740052/Highwest/redsky-draper_lfl6bz.avif",
+    "category": "Commercial",
+    "status": "Completed",
+    "units": null
+  },
+  {
+    "title": "B's Convenience Store",
+    "description": "Managed from conception to completion.",
+    "location": "Ballard, UT",
+    "budget": 3.1,
+    "link": null,
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760740051/Highwest/bs-ballard_hxprx4.jpg",
+    "category": "Commercial",
+    "status": "Completed",
+    "units": null
+  }
+]

@@ -1,0 +1,139 @@
+/* Video */
+#video .layer-inset {
+  aspect-ratio: 16/9;
+  border-radius: var(--radius);
+  overflow: hidden;
+  position: relative;
+}
+#video video {
+  cursor: pointer;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+#video .logo {
+  left: 50%;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0.7);
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 36rem) {
+  #video .logo {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+/* Projects */
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.project-card {
+  background-position: center;
+  background-size: cover;
+  border-radius: var(--radius);
+  color: var(--color-darker);
+  display: flex;
+  flex: 1 1 20rem;
+  flex-direction: column;
+  height: 16rem;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 1.5rem;
+  position: relative;
+}
+.project-card::before {
+  background: linear-gradient(180deg, rgba(0, 17, 17, 0.1) 0%, rgba(0, 17, 17, 0.9) 100%);
+  content: '';
+  inset: 0;
+  position: absolute;
+}
+.project-card > div {
+  position: relative;
+}
+.project-status {
+  align-items: center;
+  background: var(--color-light);
+  border-radius: 0.75rem;
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.125rem 0.5rem;
+  width: fit-content;
+}
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.project-card h3 {
+  color: var(--color-darkest);
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.project-stats {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0 0 0.5rem;
+}
+.project-stats .stat {
+  align-items: center;
+  display: flex;
+  gap: 0.25rem;
+}
+.project-stats i,
+.project-footer a:hover {
+  color: var(--color-darkest);
+}
+.project-footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* About */
+#about .signoff {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0 0;
+}
+#about .headshot {
+  border-radius: var(--radius);
+  width: 8rem;
+}
+#about .signoff > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+#kevin-signature {
+  width: 14rem;
+}
+#kevin-perry {
+  font-size: 1.25rem;
+}
+#kevin-signature,
+#kevin-perry + div {
+  color: var(--color-half);
+}
+
+@media (min-width: 36rem) {
+  #about .content {
+    max-width: 50%;
+  }
+}
+
+/* Responsive */
+@media (min-width: 36rem) {
+  #video .hero-logo {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}

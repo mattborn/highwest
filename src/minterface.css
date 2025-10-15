@@ -29,12 +29,12 @@
 
   .ghost {
     /* copied from :root */
-    --color-darkest: rgba(0, 0, 17, 0.9);
+    /* --color-darkest: rgba(0, 0, 17, 0.9);
     --color-darker: rgba(0, 0, 17, 0.7);
     --color-half: rgba(0, 0, 17, 0.5);
     --color-light: rgba(0, 0, 17, 0.1);
     --color-lighter: rgba(0, 0, 17, 0.05);
-    --color-lightest: rgb(255, 255, 255);
+    --color-lightest: rgb(255, 255, 255); */
   }
 }
 
