@@ -1,16 +1,29 @@
-//clarity.microsoft.com
-/*;(function (c, l, a, r, i, t, y) {
-  c[a] =
-    c[a] ||
-    function () {
-      ;(c[a].q = c[a].q || []).push(arguments)
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+  link.addEventListener('click', e => {
+    const href = link.getAttribute('href')
+    if (href.startsWith('#') && !href.match(/#(all|hospitality|multifamily|commercial)$/)) {
+      e.preventDefault()
+      const target = document.querySelector(href)
+      if (target) target.scrollIntoView({ behavior: 'smooth' })
     }
-  t = l.createElement(r)
-  t.async = 1
-  t.src = 'https://www.clarity.ms/tag/' + i
-  y = l.getElementsByTagName(r)[0]
-  y.parentNode.insertBefore(t, y)
-})(window, document, 'clarity', 'script', 'NEW_CLARITY_CODE_HERE')*/
+  })
+})
+
+// Filter functionality
+document.addEventListener('click', e => {
+  const filterLink = e.target.closest('.filter-nav a')
+  if (filterLink) {
+    e.preventDefault()
+    document.querySelectorAll('.filter-nav a').forEach(a => a.classList.remove('active'))
+    filterLink.classList.add('active')
+
+    const filter = filterLink.href.split('#')[1]
+    document.querySelectorAll('.project-card').forEach(card => {
+      card.style.display = filter === 'all' || card.dataset.category === filter ? '' : 'none'
+    })
+  }
+})
 
 // ScrollReveal animations
 const scrollConfig = {
@@ -19,4 +32,5 @@ const scrollConfig = {
   interval: 100,
   origin: 'bottom',
 }
-ScrollReveal().reveal('h1, h2, h3, p, a, button, img, video', scrollConfig)
+ScrollReveal().reveal('nav a', scrollConfig)
+ScrollReveal().reveal('h2', { ...scrollConfig, viewOffset: { top: -500 } })
