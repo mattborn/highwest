@@ -1,3 +1,21 @@
+/* Hero */
+#hero {
+  padding: 4rem 0;
+  text-align: center;
+}
+#hero .layer-inset {
+  align-items: center;
+}
+#hero h1 {
+  font-size: clamp(2rem, 6vw, 4rem);
+  line-height: 1.1;
+}
+#hero .lead {
+  color: var(--color-half);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  max-width: 40rem;
+}
+
 /* Video */
 #video .layer-inset {
   aspect-ratio: 16/9;
@@ -124,10 +142,52 @@
 #kevin-perry + div {
   color: var(--color-half);
 }
+#about .signoff a {
+  color: #c9a227;
+  font-weight: 700;
+}
+#about .signoff a:hover {
+  text-decoration: underline;
+}
 
 @media (min-width: 36rem) {
   #about .content {
     max-width: 50%;
+  }
+}
+
+/* Team */
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  width: 100%;
+}
+.team-card {
+  display: flex;
+  flex: 1 1 100%;
+  gap: 1.5rem;
+}
+.team-card img {
+  aspect-ratio: 1;
+  border-radius: var(--radius);
+  height: 12.5rem;
+  object-fit: cover;
+  width: 12.5rem;
+}
+.team-card > div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.team-role {
+  color: var(--color-half);
+  margin: 0 0 0.5rem;
+}
+@media (min-width: 48rem) {
+  .team-card {
+    flex: 1 1 calc(50% - 0.75rem);
   }
 }
 

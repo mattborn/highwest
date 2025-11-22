@@ -22,6 +22,7 @@ document.addEventListener('click', e => {
     document.querySelectorAll('.project-card').forEach(card => {
       card.style.display = filter === 'all' || card.dataset.category === filter ? '' : 'none'
     })
+    ScrollReveal().sync()
   }
 })
 
