@@ -1,4 +1,5 @@
 :root {
+  --color-brand: #c9a227;
   --radius: 1rem;
   --space: 1.5rem;
   --space-clamp: clamp(1.5rem, 3vw, 2rem);

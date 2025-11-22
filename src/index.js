@@ -85,13 +85,6 @@ fetch(window.location.pathname + 'projects.json')
         grid.appendChild(card)
       })
 
-      ScrollReveal().reveal('.project-card', {
-        cleanup: true,
-        distance: '10%',
-        interval: 100,
-        origin: 'bottom',
-        viewOffset: { bottom: 300 },
-      })
-      ScrollReveal().sync()
+      // sr.reveal('.project-card', { viewOffset: { bottom: 300 } })
     }
   })

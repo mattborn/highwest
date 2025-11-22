@@ -20,17 +20,19 @@ document.addEventListener('click', e => {
 
     const filter = filterLink.href.split('#')[1]
     document.querySelectorAll('.project-card').forEach(card => {
-      card.style.display = filter === 'all' || card.dataset.category === filter ? '' : 'none'
+      const show = filter === 'all' || card.dataset.category === filter
+      card.style.display = show ? '' : 'none'
+      if (show) card.style.visibility = 'visible'
     })
   }
 })
 
 // ScrollReveal animations
-const scrollConfig = {
+const sr = ScrollReveal({
   cleanup: true,
   distance: '20%',
   interval: 100,
   origin: 'bottom',
-}
-ScrollReveal().reveal('nav a', scrollConfig)
-ScrollReveal().reveal('h2', { ...scrollConfig, viewOffset: { top: -500 } })
+  viewFactor: 0,
+})
+sr.reveal('.logo, nav a, h1, h2, h3, p, .button, .signoff, .team-card, .filter-nav')
