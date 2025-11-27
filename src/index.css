@@ -170,12 +170,6 @@
   text-decoration: underline;
 }
 
-@media (min-width: 36rem) {
-  #about .content {
-    max-width: 50%;
-  }
-}
-
 /* Team */
 .team-grid {
   display: flex;

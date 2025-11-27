@@ -7,7 +7,7 @@
     "link": "https://hibernationstation.com/",
     "image": "https://res.cloudinary.com/moona/image/upload/v1760587064/Highwest/hibernation-station_bcxzpj.png",
     "category": "Hospitality",
-    "status": "Asset Management",
+    "status": "Acquisition and Asset Management",
     "units": "50 cabins"
   },
   {
@@ -18,18 +18,18 @@
     "link": "https://www.glaciergrizzlyrv.com",
     "image": "https://res.cloudinary.com/moona/image/upload/v1760587307/Highwest/glacier-grizzly_ad7x4k.png",
     "category": "Hospitality",
-    "status": "Management",
+    "status": "Development Consulting",
     "units": "125 keys"
   },
   {
-    "title": "Proposed Towneplace Suites by Marriott",
+    "title": "Towneplace Suites by Marriott",
     "description": "100 key hotel in pre-development phase. Sourced deal currently moving forward as Developer of hotel.",
     "location": "West Yellowstone, MT",
     "budget": 32,
     "link": null,
     "image": "https://res.cloudinary.com/moona/image/upload/v1760587063/Highwest/yellowstone-austin-farrington-gp2QLJKOvVc_yonwph.jpg",
     "category": "Hospitality",
-    "status": "Pre-development",
+    "status": "Development in Progress",
     "units": "100 keys"
   },
   {
@@ -62,18 +62,18 @@
     "link": "https://www.marriott.com/en-us/hotels/ycdcy-courtyard-nanaimo/overview/",
     "image": "https://res.cloudinary.com/moona/image/upload/v1760738895/Highwest/courtyard-nanaimo_yuxhn7.jpg",
     "category": "Hospitality",
-    "status": "Development",
+    "status": "Development and Entitlements",
     "units": "172 rooms"
   },
   {
-    "title": "Boutique Hotel",
+    "title": "Proposed Boutique Hotel",
     "description": "184 room high rise hotel. Managed land acquisition through entitlements and design phase.",
     "location": "Tempe, AZ",
     "budget": 70,
     "link": null,
     "image": "https://res.cloudinary.com/moona/image/upload/v1760738991/Highwest/tempe-elolson15-16922246_eik1ke.jpg",
     "category": "Hospitality",
-    "status": "Development",
+    "status": "Development and Entitlements",
     "units": "184 rooms"
   },
   {
@@ -84,7 +84,7 @@
     "link": null,
     "image": "https://res.cloudinary.com/moona/image/upload/v1760739068/Highwest/springhill-scottsdale_klghfm.jpg",
     "category": "Hospitality",
-    "status": "Development",
+    "status": "Development and Entitlements",
     "units": "117 rooms"
   },
   {
@@ -106,7 +106,7 @@
     "link": "https://aeroon24th.com/",
     "image": "https://res.cloudinary.com/moona/image/upload/v1760739649/Highwest/aero-gainesville_admugp.webp",
     "category": "Multifamily",
-    "status": "Completed",
+    "status": "Development Management",
     "units": "550 beds"
   },
   {
@@ -117,7 +117,7 @@
     "link": "https://nobleonnewberry.com/",
     "image": "https://res.cloudinary.com/moona/image/upload/v1760739648/Highwest/noble-gainesville_jpmm6g.jpg",
     "category": "Multifamily",
-    "status": "Completed",
+    "status": "Development Management",
     "units": "300 units"
   },
   {
@@ -128,7 +128,7 @@
     "link": null,
     "image": "https://res.cloudinary.com/moona/image/upload/v1760739647/Highwest/ufora-gainesville_tauydj.jpg",
     "category": "Multifamily",
-    "status": "Development",
+    "status": "Development Management",
     "units": "667 beds"
   },
   {
@@ -139,7 +139,7 @@
     "link": null,
     "image": "https://res.cloudinary.com/moona/image/upload/v1760739647/Highwest/rogers-taylor-hall-CrLyby642wQ_tm0zkn.jpg",
     "category": "Multifamily",
-    "status": "Development",
+    "status": "Development and Entitlements",
     "units": "248 units"
   },
   {
@@ -150,19 +150,8 @@
     "link": "https://liveuniteslc.com/",
     "image": "https://res.cloudinary.com/moona/image/upload/v1760740056/Highwest/unite-slc_lsrfmf.jpg",
     "category": "Multifamily",
-    "status": "Development",
+    "status": "Development and Entitlements",
     "units": "183 beds"
-  },
-  {
-    "title": "Stenhouse BTR",
-    "description": "101 Build to Rent Townhomes. Managed project in design and entitlement phase. Groundbreaking Fall 2023.",
-    "location": "Simpsonville, SC",
-    "budget": 30,
-    "link": null,
-    "image": "https://res.cloudinary.com/moona/image/upload/v1760740054/Highwest/simpsonville-sc_nfdndr.avif",
-    "category": "Multifamily",
-    "status": "Development",
-    "units": "101 townhomes"
   },
   {
     "title": "Ocala BTR",
@@ -172,7 +161,7 @@
     "link": null,
     "image": "https://res.cloudinary.com/moona/image/upload/v1760740053/Highwest/ocala-kenny-gaines-YScLVuOv7nU_vhjpg5.jpg",
     "category": "Multifamily",
-    "status": "Development",
+    "status": "Development and Entitlements",
     "units": "288 units"
   },
   {
@@ -181,7 +170,7 @@
     "location": "Draper, UT",
     "budget": 4.5,
     "link": null,
-    "image": "https://res.cloudinary.com/moona/image/upload/v1760740052/Highwest/redsky-draper_lfl6bz.avif",
+    "image": "https://evcodevelopment.com/wp-content/uploads/2020/04/RSd1.jpg",
     "category": "Commercial",
     "status": "Completed",
     "units": null

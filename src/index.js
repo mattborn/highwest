@@ -84,7 +84,5 @@ fetch(window.location.pathname + 'projects.json')
         card.appendChild(cardBottom)
         grid.appendChild(card)
       })
-
-      // sr.reveal('.project-card', { viewOffset: { bottom: 300 } })
     }
   })
