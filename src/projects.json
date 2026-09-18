@@ -1,36 +1,36 @@
 [
   {
-    "title": "Hibernation Station",
-    "description": "50 Cabin Resort. Sourced and underwrote and acquired asset. Negotiated key contracts and lead transition of operations to new ownership. Currently perform Asset Management services.",
-    "location": "West Yellowstone, MT",
-    "budget": 12,
-    "link": "https://hibernationstation.com/",
-    "image": "https://res.cloudinary.com/moona/image/upload/v1760587064/Highwest/hibernation-station_bcxzpj.png",
+    "title": "TownePlace Suites by Marriott",
     "category": "Hospitality",
+    "description": "100 key hotel in pre-development phase. Sourced deal currently moving forward as Developer of hotel.",
+    "image": "https://res.cloudinary.com/moona/image/upload/v1789772119/Highwest/towneplace-west-yellowstone_lzat5o.jpg",
+    "link": null,
+    "location": "West Yellowstone, MT",
+    "status": "Under Construction",
+    "tag": "Opening Spring 2027",
+    "units": "100 keys"
+  },
+  {
+    "title": "Hibernation Station",
+    "budget": 12,
+    "category": "Hospitality",
+    "description": "50 Cabin Resort. Sourced and underwrote and acquired asset. Negotiated key contracts and lead transition of operations to new ownership. Currently perform Asset Management services.",
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760587064/Highwest/hibernation-station_bcxzpj.png",
+    "link": "https://hibernationstation.com/",
+    "location": "West Yellowstone, MT",
     "status": "Acquisition and Asset Management",
     "units": "50 cabins"
   },
   {
     "title": "Glacier Grizzly RV Resort",
-    "description": "125 key RV and glamping Resort. Currently managing project through entitlements, development and operations onboarding.",
-    "location": "East Glacier, MT",
     "budget": 10,
-    "link": "https://www.glaciergrizzlyrv.com",
-    "image": "https://res.cloudinary.com/moona/image/upload/v1760587307/Highwest/glacier-grizzly_ad7x4k.png",
     "category": "Hospitality",
+    "description": "125 key RV and glamping Resort. Currently managing project through entitlements, development and operations onboarding.",
+    "image": "https://res.cloudinary.com/moona/image/upload/v1760587307/Highwest/glacier-grizzly_ad7x4k.png",
+    "link": "https://www.glaciergrizzlyrv.com",
+    "location": "East Glacier, MT",
     "status": "Development Consulting",
     "units": "125 keys"
-  },
-  {
-    "title": "Towneplace Suites by Marriott",
-    "description": "100 key hotel in pre-development phase. Sourced deal currently moving forward as Developer of hotel.",
-    "location": "West Yellowstone, MT",
-    "budget": 32,
-    "link": null,
-    "image": "https://res.cloudinary.com/moona/image/upload/v1760587063/Highwest/yellowstone-austin-farrington-gp2QLJKOvVc_yonwph.jpg",
-    "category": "Hospitality",
-    "status": "Development in Progress",
-    "units": "100 keys"
   },
   {
     "title": "Yotel Pad Park City",

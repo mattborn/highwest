@@ -60,6 +60,8 @@
 
 /* Projects */
 .project-grid {
+  --color-full: rgba(255, 255, 255, 1);
+  --color-gold: #c4a84e;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -84,6 +86,10 @@
   content: '';
   inset: 0;
   position: absolute;
+  transition: opacity 0.3s;
+}
+.project-card:hover::before {
+  opacity: 0.7;
 }
 .project-card > div {
   position: relative;
@@ -92,9 +98,23 @@
   align-items: center;
   background: var(--color-light);
   border-radius: 0.75rem;
+  color: var(--color-full);
   display: flex;
   gap: 0.5rem;
-  padding: 0.125rem 0.5rem;
+  padding: 0.25rem 0.75rem;
+  width: fit-content;
+}
+.project-status-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.project-tag {
+  background: linear-gradient(160deg, #ecdf8c, #a87c24);
+  border-radius: 0.75rem;
+  color: var(--color-full);
+  opacity: 0.9;
+  padding: 0.25rem 0.75rem;
   width: fit-content;
 }
 .card-bottom {
@@ -104,7 +124,7 @@
 }
 
 .project-card h3 {
-  color: var(--color-darkest);
+  color: var(--color-full);
   font-size: 1.5rem;
   line-height: 1;
 }

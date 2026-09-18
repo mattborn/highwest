@@ -25,11 +25,22 @@ fetch(window.location.pathname + 'projects.json')
           card.style.backgroundImage = `url(${optimizedImage})`
         }
 
-        if (p.status) {
-          const status = document.createElement('div')
-          status.className = 'project-status'
-          status.textContent = p.status
-          card.appendChild(status)
+        if (p.status || p.tag) {
+          const statusWrap = document.createElement('div')
+          statusWrap.className = 'project-status-wrap'
+          if (p.status) {
+            const status = document.createElement('div')
+            status.className = 'project-status'
+            status.textContent = p.status
+            statusWrap.appendChild(status)
+          }
+          if (p.tag) {
+            const tag = document.createElement('div')
+            tag.className = 'project-tag'
+            tag.textContent = p.tag
+            statusWrap.appendChild(tag)
+          }
+          card.appendChild(statusWrap)
         }
 
         const cardBottom = document.createElement('div')
